@@ -4,9 +4,9 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Bonjour'
-s.version           = '1.0.0'
+s.version           = '1.0.1'
 s.summary           = 'NA'
-s.homepage          = 'http://example.com'
+s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Bonjour'
 
 s.author            = { 'Name' => 'Scott Carter' }
 s.license           = { :type => 'Custom', :file => 'LICENSE' }
@@ -17,8 +17,7 @@ s.ios.deployment_target = '10.3'
 
 # 3rd party dependencies
 
-# Get latest version of DTBonjour
-s.dependency 'DTBonjour'
+s.dependency 'DTBonjour', '1.1.3'
 
 # DTFoundation is not currently needed.
 # s.dependency 'DTFoundation', '1.7.12'

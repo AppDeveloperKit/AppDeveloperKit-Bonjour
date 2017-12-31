@@ -1,0 +1,11 @@
+framework module FastStart_Bonjour {
+  umbrella header "FastStart_Bonjour.h"
+
+  export *
+  module * { export * }
+}
+
+module FastStart_Bonjour.Swift {
+    header "FastStart_Bonjour-Swift.h"
+    requires objc
+}

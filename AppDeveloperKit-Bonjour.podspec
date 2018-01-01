@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Bonjour'
-s.version           = '1.0.2'
+s.version           = '1.0.3'
 s.summary           = 'NA'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Bonjour'
 
@@ -26,10 +26,10 @@ s.dependency 'DTBonjour', '1.1.3'
 
 # Binary install.
 #
-s.ios.vendored_frameworks = 'FastStart_Bonjour.framework'
+s.ios.vendored_frameworks = 'AppDeveloperKit_Bonjour.framework'
 
 # Local testing
-#s.source            = { :http => 'http://127.0.0.1/AppDeveloperKit-Bonjour/FastStart_Bonjour.framework.zip' }
+#s.source            = { :http => 'http://127.0.0.1/AppDeveloperKit-Bonjour/AppDeveloperKit_Bonjour.framework.zip' }
 
 s.source       = { :git => "https://github.com/AppDeveloperKit/AppDeveloperKit-Bonjour.git", :tag => s.version.to_s }
 

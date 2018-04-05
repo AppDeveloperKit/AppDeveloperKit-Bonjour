@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Bonjour'
-s.version           = '1.0.6'
+s.version           = '1.0.7'
 s.summary           = 'NA'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Bonjour'
 
@@ -13,7 +13,7 @@ s.license           = { :type => 'Custom', :file => 'LICENSE' }
 
 s.platform          = :ios
 
-s.ios.deployment_target = '10.3'
+s.ios.deployment_target = '11.0'
 
 # 3rd party dependencies
 

@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
 s.name              = 'AppDeveloperKit-Bonjour'
-s.version           = '1.0.7'
+s.version           = '1.0.8'
 s.summary           = 'NA'
 s.homepage          = 'https://github.com/AppDeveloperKit/AppDeveloperKit-Bonjour'
 
